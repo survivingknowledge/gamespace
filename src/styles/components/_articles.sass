@@ -1,5 +1,54 @@
 
 .articles
   position: relative
-  background: blue
-  margin-top: 200px
+  background: #fff
+  color: #000
+  padding: 20px 0
+
+.article-title-area
+  position: relative
+
+  > h3
+    color: $arrow-green-color
+    font-size: .8125rem
+    font-weight: 600
+    text-transform: uppercase
+    float: left
+    display: block
+    margin: 0
+    background: #fff
+    margin-right: 10px
+
+  &::after
+    display: table
+    content: ''
+    clear: both
+
+.articles-see-all-link
+  float: right
+  text-transform: uppercase
+  position: relative
+  top: -2px
+  margin-left: 10px
+
+  > a
+    font-size: .8125rem
+    line-height: .8125rem
+    font-weight: 600
+    color: #000
+
+    span
+      position: relative
+      margin-left: 5px
+      font-size: 1rem
+      font-weight: bold
+
+.horz-rule
+  position: relative
+  border-top: 1px solid #eee
+  border-bottom: 1px solid #eee
+  overflow: hidden
+  border-top-width: 0 !important
+  border-bottom-width: 3px !important
+  opacity: 0.8
+  top: 5px
