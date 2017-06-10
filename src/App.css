@@ -66,8 +66,8 @@ html, body {
   position: absolute;
   left: 0;
   overflow: hidden;
-  background: blue;
-  height: 500px;
+  background: #red;
+  height: 200px;
   width: 100%; }
 
 .slide {
@@ -76,21 +76,46 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 0 15px;
-  background: purple; }
+  padding: 0 30px;
+  background: purple;
+  background-repeat: no-repeat !important;
+  background-size: auto 200px !important;
+  background-position: center center; }
 
 .heroslider-controls {
   position: absolute;
   z-index: 100; }
 
 .heroslider-controls-left {
-  left: 15px;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
   font-size: 2.5rem; }
 
 .heroslider-controls-right {
-  right: 15px;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
   font-size: 2.5rem; }
+
+.hero-slider-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(to right, black 0%, transparent 20%, transparent 80%, black 100%); }
+
+.slide-title {
+  position: relative;
+  top: 130px;
+  font-size: 1rem;
+  font-family: "Arial Black";
+  color: #fff;
+  z-index: 5;
+  width: 100%;
+  font-weight: 700;
+  word-wrap: break-word; }
+  .slide-title > a {
+    display: block; }
