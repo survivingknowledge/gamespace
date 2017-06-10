@@ -65,6 +65,7 @@ html, body {
 .hero-slider {
   position: absolute;
   left: 0;
+  top: 40px;
   overflow: hidden;
   background: #red;
   height: 200px;
@@ -120,3 +121,8 @@ html, body {
   word-wrap: break-word; }
   .slide-title > a {
     display: block; }
+
+.articles {
+  position: relative;
+  background: blue;
+  margin-top: 200px; }
