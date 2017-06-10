@@ -11,12 +11,22 @@ $networkbar-height: 40px
   border-bottom: 1px solid #292929
   background: #000
 
+  &::after
+    display: table
+    content: ''
+    clear: both
+
 .hero-nav
   float: right
+  font-size: .75rem
 
   > a
     margin-left: 15px
     color: $networkbar-heronav-link-color
+
+    &:hover
+      text-decoration: none
+      color: #fff
 
     span
       margin-right: 5px

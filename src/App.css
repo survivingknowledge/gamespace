@@ -42,11 +42,19 @@ html, body {
   line-height: 40px;
   border-bottom: 1px solid #292929;
   background: #000; }
+  .networkbar::after {
+    display: table;
+    content: '';
+    clear: both; }
 
 .hero-nav {
-  float: right; }
+  float: right;
+  font-size: .75rem; }
   .hero-nav > a {
     margin-left: 15px;
     color: #3497b8; }
+    .hero-nav > a:hover {
+      text-decoration: none;
+      color: #fff; }
     .hero-nav > a span {
       margin-right: 5px; }
