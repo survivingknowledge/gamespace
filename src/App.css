@@ -129,7 +129,8 @@ html, body {
   padding: 20px 0; }
 
 .article-title-area {
-  position: relative; }
+  position: relative;
+  margin-bottom: 20px; }
   .article-title-area > h3 {
     color: #34cc67;
     font-size: .8125rem;
@@ -171,3 +172,17 @@ html, body {
   border-bottom-width: 3px !important;
   opacity: 0.8;
   top: 5px; }
+
+article img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto; }
+
+header h2 {
+  margin: 0; }
+  header h2 a {
+    color: #3497b8 !important;
+    font-family: "Arial Black";
+    font-size: 1rem;
+    word-wrap: break-word; }
